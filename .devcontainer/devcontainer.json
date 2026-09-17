@@ -1,0 +1,16 @@
+{
+	"name": "danmalgi_api",
+	"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+	"remoteUser": "codespace",
+	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"danmalgi-project/danmalgi_proto": {
+					"permissions": {
+						"contents": "read"
+					}
+				}
+			}
+		}
+	}
+}
